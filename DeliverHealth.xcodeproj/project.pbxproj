@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E89ADC7E288C9810003C662E /* DeliverHealthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89ADC7D288C9810003C662E /* DeliverHealthApp.swift */; };
+		E89ADC80288C9810003C662E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89ADC7F288C9810003C662E /* ContentView.swift */; };
+		E89ADC82288C9813003C662E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E89ADC81288C9813003C662E /* Assets.xcassets */; };
+		E89ADC85288C9813003C662E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E89ADC84288C9813003C662E /* Preview Assets.xcassets */; };
+		E89ADC8F288C9813003C662E /* DeliverHealthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89ADC8E288C9813003C662E /* DeliverHealthTests.swift */; };
+		E89ADC99288C9813003C662E /* DeliverHealthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89ADC98288C9813003C662E /* DeliverHealthUITests.swift */; };
+		E89ADC9B288C9813003C662E /* DeliverHealthUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89ADC9A288C9813003C662E /* DeliverHealthUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E89ADC8B288C9813003C662E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E89ADC72288C9810003C662E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E89ADC79288C9810003C662E;
+			remoteInfo = DeliverHealth;
+		};
+		E89ADC95288C9813003C662E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E89ADC72288C9810003C662E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E89ADC79288C9810003C662E;
+			remoteInfo = DeliverHealth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E89ADC7A288C9810003C662E /* DeliverHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeliverHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E89ADC7D288C9810003C662E /* DeliverHealthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliverHealthApp.swift; sourceTree = "<group>"; };
+		E89ADC7F288C9810003C662E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E89ADC81288C9813003C662E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E89ADC84288C9813003C662E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E89ADC8A288C9813003C662E /* DeliverHealthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeliverHealthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E89ADC8E288C9813003C662E /* DeliverHealthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliverHealthTests.swift; sourceTree = "<group>"; };
+		E89ADC94288C9813003C662E /* DeliverHealthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeliverHealthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E89ADC98288C9813003C662E /* DeliverHealthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliverHealthUITests.swift; sourceTree = "<group>"; };
+		E89ADC9A288C9813003C662E /* DeliverHealthUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliverHealthUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E89ADC77288C9810003C662E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E89ADC87288C9813003C662E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E89ADC91288C9813003C662E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E89ADC71288C9810003C662E = {
+			isa = PBXGroup;
+			children = (
+				E89ADC7C288C9810003C662E /* DeliverHealth */,
+				E89ADC8D288C9813003C662E /* DeliverHealthTests */,
+				E89ADC97288C9813003C662E /* DeliverHealthUITests */,
+				E89ADC7B288C9810003C662E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E89ADC7B288C9810003C662E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E89ADC7A288C9810003C662E /* DeliverHealth.app */,
+				E89ADC8A288C9813003C662E /* DeliverHealthTests.xctest */,
+				E89ADC94288C9813003C662E /* DeliverHealthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E89ADC7C288C9810003C662E /* DeliverHealth */ = {
+			isa = PBXGroup;
+			children = (
+				E89ADC7D288C9810003C662E /* DeliverHealthApp.swift */,
+				E89ADC7F288C9810003C662E /* ContentView.swift */,
+				E89ADC81288C9813003C662E /* Assets.xcassets */,
+				E89ADC83288C9813003C662E /* Preview Content */,
+			);
+			path = DeliverHealth;
+			sourceTree = "<group>";
+		};
+		E89ADC83288C9813003C662E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E89ADC84288C9813003C662E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E89ADC8D288C9813003C662E /* DeliverHealthTests */ = {
+			isa = PBXGroup;
+			children = (
+				E89ADC8E288C9813003C662E /* DeliverHealthTests.swift */,
+			);
+			path = DeliverHealthTests;
+			sourceTree = "<group>";
+		};
+		E89ADC97288C9813003C662E /* DeliverHealthUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E89ADC98288C9813003C662E /* DeliverHealthUITests.swift */,
+				E89ADC9A288C9813003C662E /* DeliverHealthUITestsLaunchTests.swift */,
+			);
+			path = DeliverHealthUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E89ADC79288C9810003C662E /* DeliverHealth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E89ADC9E288C9813003C662E /* Build configuration list for PBXNativeTarget "DeliverHealth" */;
+			buildPhases = (
+				E89ADC76288C9810003C662E /* Sources */,
+				E89ADC77288C9810003C662E /* Frameworks */,
+				E89ADC78288C9810003C662E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeliverHealth;
+			productName = DeliverHealth;
+			productReference = E89ADC7A288C9810003C662E /* DeliverHealth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E89ADC89288C9813003C662E /* DeliverHealthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E89ADCA1288C9813003C662E /* Build configuration list for PBXNativeTarget "DeliverHealthTests" */;
+			buildPhases = (
+				E89ADC86288C9813003C662E /* Sources */,
+				E89ADC87288C9813003C662E /* Frameworks */,
+				E89ADC88288C9813003C662E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E89ADC8C288C9813003C662E /* PBXTargetDependency */,
+			);
+			name = DeliverHealthTests;
+			productName = DeliverHealthTests;
+			productReference = E89ADC8A288C9813003C662E /* DeliverHealthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E89ADC93288C9813003C662E /* DeliverHealthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E89ADCA4288C9813003C662E /* Build configuration list for PBXNativeTarget "DeliverHealthUITests" */;
+			buildPhases = (
+				E89ADC90288C9813003C662E /* Sources */,
+				E89ADC91288C9813003C662E /* Frameworks */,
+				E89ADC92288C9813003C662E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E89ADC96288C9813003C662E /* PBXTargetDependency */,
+			);
+			name = DeliverHealthUITests;
+			productName = DeliverHealthUITests;
+			productReference = E89ADC94288C9813003C662E /* DeliverHealthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E89ADC72288C9810003C662E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					E89ADC79288C9810003C662E = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					E89ADC89288C9813003C662E = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = E89ADC79288C9810003C662E;
+					};
+					E89ADC93288C9813003C662E = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = E89ADC79288C9810003C662E;
+					};
+				};
+			};
+			buildConfigurationList = E89ADC75288C9810003C662E /* Build configuration list for PBXProject "DeliverHealth" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E89ADC71288C9810003C662E;
+			productRefGroup = E89ADC7B288C9810003C662E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E89ADC79288C9810003C662E /* DeliverHealth */,
+				E89ADC89288C9813003C662E /* DeliverHealthTests */,
+				E89ADC93288C9813003C662E /* DeliverHealthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E89ADC78288C9810003C662E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E89ADC85288C9813003C662E /* Preview Assets.xcassets in Resources */,
+				E89ADC82288C9813003C662E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E89ADC88288C9813003C662E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E89ADC92288C9813003C662E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E89ADC76288C9810003C662E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E89ADC80288C9810003C662E /* ContentView.swift in Sources */,
+				E89ADC7E288C9810003C662E /* DeliverHealthApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E89ADC86288C9813003C662E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E89ADC8F288C9813003C662E /* DeliverHealthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E89ADC90288C9813003C662E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E89ADC9B288C9813003C662E /* DeliverHealthUITestsLaunchTests.swift in Sources */,
+				E89ADC99288C9813003C662E /* DeliverHealthUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E89ADC8C288C9813003C662E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E89ADC79288C9810003C662E /* DeliverHealth */;
+			targetProxy = E89ADC8B288C9813003C662E /* PBXContainerItemProxy */;
+		};
+		E89ADC96288C9813003C662E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E89ADC79288C9810003C662E /* DeliverHealth */;
+			targetProxy = E89ADC95288C9813003C662E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E89ADC9C288C9813003C662E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E89ADC9D288C9813003C662E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E89ADC9F288C9813003C662E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DeliverHealth/Preview Content\"";
+				DEVELOPMENT_TEAM = AEBND82R4N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.despinosa112.DeliverHealth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E89ADCA0288C9813003C662E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DeliverHealth/Preview Content\"";
+				DEVELOPMENT_TEAM = AEBND82R4N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.despinosa112.DeliverHealth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E89ADCA2288C9813003C662E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AEBND82R4N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.despinosa112.DeliverHealthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeliverHealth.app/DeliverHealth";
+			};
+			name = Debug;
+		};
+		E89ADCA3288C9813003C662E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AEBND82R4N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.despinosa112.DeliverHealthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeliverHealth.app/DeliverHealth";
+			};
+			name = Release;
+		};
+		E89ADCA5288C9813003C662E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AEBND82R4N;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.despinosa112.DeliverHealthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeliverHealth;
+			};
+			name = Debug;
+		};
+		E89ADCA6288C9813003C662E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AEBND82R4N;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.despinosa112.DeliverHealthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeliverHealth;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E89ADC75288C9810003C662E /* Build configuration list for PBXProject "DeliverHealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E89ADC9C288C9813003C662E /* Debug */,
+				E89ADC9D288C9813003C662E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E89ADC9E288C9813003C662E /* Build configuration list for PBXNativeTarget "DeliverHealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E89ADC9F288C9813003C662E /* Debug */,
+				E89ADCA0288C9813003C662E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E89ADCA1288C9813003C662E /* Build configuration list for PBXNativeTarget "DeliverHealthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E89ADCA2288C9813003C662E /* Debug */,
+				E89ADCA3288C9813003C662E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E89ADCA4288C9813003C662E /* Build configuration list for PBXNativeTarget "DeliverHealthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E89ADCA5288C9813003C662E /* Debug */,
+				E89ADCA6288C9813003C662E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E89ADC72288C9810003C662E /* Project object */;
+}
