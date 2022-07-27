@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct DeliverHealthApp: App {
+    
+    @StateObject private var characterData = CharacterData()
+
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(characterData)
         }
     }
 }

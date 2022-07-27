@@ -9,15 +9,17 @@ import Foundation
 
 class APIHelper: NSObject {
     
-    static func fetchUrl<T: Decodable>(url: URL, model: T.Type, completion: @escaping ([T]?) -> ()){
+    static func fetchUrl<T: Decodable>(url: URL, model: T.Type, completion: @escaping (T?) -> ()){
         URLSession.shared.dataTask(with: url) { data, response, error in
+
             if (error != nil){
-                print(error?.localizedDescription)
+                print(error?.localizedDescription ?? "Error getting Data")
                 completion(nil)
                 return
             }
             guard let data = data else { return }
-            if let decodedResponse = try? JSONDecoder().decode([T].self, from: data) {
+            
+            if let decodedResponse = try? JSONDecoder().decode(T.self, from: data) {
                 completion(decodedResponse)
             } else {
                 completion(nil)

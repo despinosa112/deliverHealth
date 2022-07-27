@@ -7,14 +7,26 @@
 
 import SwiftUI
 
+import SwiftUI
+
 struct InfoRowView: View {
+    var key: String?
+    var value: String?
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            Text(key ?? "KEY")
+                .padding(.leading, 4)
+                .font(Font.headline.weight(.bold))
+            Text(value ?? "VALUE")
+            Spacer()
+
+        }
+        .frame(height: 40)
     }
 }
 
 struct InfoRowView_Previews: PreviewProvider {
     static var previews: some View {
-        InfoRowView()
+        InfoRowView(key: "Info Key", value: "Info Val")
     }
 }

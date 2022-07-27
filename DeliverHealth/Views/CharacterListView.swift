@@ -8,8 +8,38 @@
 import SwiftUI
 
 struct CharacterListView: View {
+    
+    @EnvironmentObject var characterData: CharacterData
+    @State private var searchText = ""
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        if #available(iOS 15.0, *) {
+            List(characterData.filteredCharacters ?? [Character](), id: \.name){ character in
+                NavigationLink {
+                    CharacterDetail(character: character)
+                        .navigationTitle(character.name ?? "Character Name")
+                        .toolbar {
+                            Button() {
+                                ShareHelper.shareCharacter(character: character)
+                            } label: {
+                                Image(systemName: "square.and.arrow.up")
+                            }
+                        }
+                } label: {
+                    CharacterRowView(character: character)
+                }
+            }
+            .listStyle(.inset)
+            .onAppear {
+                characterData.loadCharacters()
+            }
+            .searchable(text: $searchText, prompt: "Search a character")
+            .onChange(of: searchText) { newValue in
+                characterData.filteredCharacters = SearchHelper.filterCharacters(query: newValue, characters: characterData.characters ?? [Character]())
+            }
+        } else {
+            // Fallback on earlier versions
+        }
     }
 }
 
